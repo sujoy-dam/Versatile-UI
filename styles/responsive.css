@@ -1,0 +1,12 @@
+/* nav section  */
+@media screen and (max-width: 576px) {
+    .nav-container ul{
+        display: none;
+    }
+    .hambarger-menu{
+        display: block;
+        align-items: center;
+        padding: 0px 10px;
+        font-size: 25px;
+    }
+}
