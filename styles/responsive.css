@@ -59,5 +59,12 @@
     .template2 p{
         font-size: 10px;
     }
+    /* change habit */
+    .change-habit-text p{
+        width: 95%;
+    }
+    .change-habit-img{
+        flex-direction: column;
+    }
 
 }

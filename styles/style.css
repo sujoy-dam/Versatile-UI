@@ -123,3 +123,40 @@ span{
     top: 100px;
     right: 10px;
 }
+/* change habits section  */
+.change-habit-container{
+    max-width: 1440px;
+    margin: 40px auto;
+    border: 2px solid green;
+    color: white;
+    text-align: center;
+}
+.change-habit-text p{
+    width: 40%;
+    margin: 20px auto;
+}
+.change-habit-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    margin-top: 40px;
+    gap: 40px;
+}
+.img1-container, .img2-container, .img3-container, .img4-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blueviolet;
+    padding: 10px 20px ;
+}
+.img1-container img, .img2-container img, .img3-container img, .img4-container img{
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.img1-container p, .img2-container p, .img3-container p, .img4-container p{
+    width: 75%;
+    margin-top: 15px;
+}
+
