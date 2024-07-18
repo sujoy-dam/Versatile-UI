@@ -160,3 +160,44 @@ span{
     margin-top: 15px;
 }
 
+/* run extra section  */
+.run-extra-section-container{
+    max-width: 1440px;
+    border: 2px solid white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #5d5c5c8a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.extra-section-text{
+    border: 2px solid black;
+    color: white;
+    width: 50%;
+}
+.extra-section-text h1{
+    font-size: 60px;
+    width: 80%;
+}
+.extra-section-text p{
+    margin: 25px 0px;
+    width: 65%;
+    text-align: justify;
+}
+.extra-section-btn{
+    padding: 20px 70px;
+    border-radius: 30px;
+    background-color: #E6533C;
+    color: white;
+    font-size: 16px;
+}
+.extra-section-img{
+    border: 2px solid red;
+    width: 50%;
+}
+.extra-section-img img{
+    width: 100%;
+    border-radius: 12px;
+}

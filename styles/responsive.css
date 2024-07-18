@@ -66,5 +66,27 @@
     .change-habit-img{
         flex-direction: column;
     }
+    /* extra ran section  */
+    .run-extra-section-container{
+        flex-direction: column;
+    }
+    .extra-section-text{
+        width: 100%;
+    }
+    .extra-section-text h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .extra-section-text p{
+        width: 100%;
+    }
+    .extra-section-btn{
+        width: 100%;
+        padding: 15px;
+    }
+    .extra-section-img{
+        width: 100%;
+        margin-top: 20px;
+    }
 
 }
