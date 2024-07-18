@@ -9,4 +9,55 @@
         padding: 0px 10px;
         font-size: 25px;
     }
+    /* banner section  */
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .banner-content p{
+        text-align: justify;
+    }
+    .banner-content-btn{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .btn, .download-btn{
+        font-size: 13px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 80%;
+    }
+    .template1{
+        bottom: 50px;
+        left: 20px;
+    }
+    .template1 h1{
+        font-size: 18px;
+    }
+    .template1 p{
+        font-size: 10px;
+    }
+    .templete1-circle{
+        width: 20px;
+        height: 20px;
+    }
+    .template2{
+        top: 40px;
+        right: 15px;
+    }
+    .template2 h1{
+        font-size: 18px;
+    }
+    .template2 p{
+        font-size: 10px;
+    }
+
 }
