@@ -201,3 +201,29 @@ span{
     width: 100%;
     border-radius: 12px;
 }
+/* meet our team section  */
+.meet-our-team-section{
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    max-width: 1440px;
+    margin: 40px auto;
+}
+.meet-our-team-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: #5d5c5c8a;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+.meet-our-team-img div{
+    width: 100%;
+    height: 100%;
+}
+.meet-our-team-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}

@@ -88,5 +88,9 @@
         width: 100%;
         margin-top: 20px;
     }
+    /* meet our team section  */
+    .meet-our-team-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 }
