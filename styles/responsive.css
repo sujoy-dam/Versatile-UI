@@ -92,5 +92,13 @@
     .meet-our-team-img{
         grid-template-columns: repeat(1, 1fr);
     }
+    /* footer section  */
+    .footer-container{
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .footer-box1{
+        text-align: justify;
+    }
 
 }
