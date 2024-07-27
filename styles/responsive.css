@@ -1,104 +1,265 @@
 /* nav section  */
 @media screen and (max-width: 576px) {
-    .nav-container ul{
+    body {
+        padding: 0px 10px;
+    }
+
+    .nav-container ul {
         display: none;
     }
-    .hambarger-menu{
+
+    .hambarger-menu {
         display: block;
         align-items: center;
         padding: 0px 10px;
         font-size: 25px;
     }
+
     /* banner section  */
-    .banner-container{
+    .banner-container {
         flex-direction: column;
     }
-    .banner-content{
+
+    .banner-content {
         width: 100%;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 40px;
     }
-    .banner-content p{
-        text-align: justify;
-    }
-    .banner-content-btn{
-        display: flex;
-        /* flex-direction: column; */
-    }
-    .btn, .download-btn{
-        font-size: 13px;
-    }
-    .banner-img{
-        width: 100%;
-    }
-    .banner-img img{
-        width: 80%;
-    }
-    .template1{
-        bottom: 50px;
-        left: 20px;
-    }
-    .template1 h1{
-        font-size: 18px;
-    }
-    .template1 p{
-        font-size: 10px;
-    }
-    .templete1-circle{
-        width: 20px;
-        height: 20px;
-    }
-    .template2{
-        top: 40px;
-        right: 15px;
-    }
-    .template2 h1{
-        font-size: 18px;
-    }
-    .template2 p{
-        font-size: 10px;
-    }
-    /* change habit */
-    .change-habit-text p{
-        width: 95%;
-    }
-    .change-habit-img{
-        flex-direction: column;
-    }
-    /* extra ran section  */
-    .run-extra-section-container{
-        flex-direction: column;
-    }
-    .extra-section-text{
-        width: 100%;
-    }
-    .extra-section-text h1{
-        width: 100%;
-        font-size: 40px;
-    }
-    .extra-section-text p{
-        width: 100%;
-    }
-    .extra-section-btn{
-        width: 100%;
-        padding: 15px;
-    }
-    .extra-section-img{
-        width: 100%;
-        margin-top: 20px;
-    }
-    /* meet our team section  */
-    .meet-our-team-img{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    /* footer section  */
-    .footer-container{
-        flex-direction: column;
-        padding: 10px 10px;
-    }
-    .footer-box1{
+
+    .banner-content p {
         text-align: justify;
     }
 
+    .banner-content-btn {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .join-btn,
+    .download-btn {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img {
+        width: 80%;
+    }
+
+    .template1 {
+        bottom: 20%;
+        left: 10%;
+        padding: 10px 15px;
+    }
+
+    .template1 h1 {
+        font-size: 18px;
+    }
+
+    .template1 p {
+        font-size: 10px;
+    }
+
+    .templete1-circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .template2 {
+        top: 15%;
+        right: 5%;
+        padding: 10px 15px;
+    }
+
+    .template2 h1 {
+        font-size: 18px;
+    }
+
+    .template2 p {
+        font-size: 10px;
+    }
+
+    /* change habit */
+    .change-habit-text p {
+        width: 100%;
+    }
+    .change-habit-text h1{
+        font-size: 25px;
+    }
+
+    .change-habit-img {
+        flex-direction: column;
+    }
+
+    /* extra ran section  */
+    .run-extra-section-container {
+        flex-direction: column;
+    }
+
+    .extra-section-text {
+        width: 100%;
+    }
+
+    .extra-section-text h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .extra-section-text p {
+        width: 100%;
+    }
+
+    .extra-section-btn {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .extra-section-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* meet our team section  */
+    .meet-our-team-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .meet-our-team-text h1{
+        font-size: 25px;
+    }
+
+    /* training and exercise section  */
+    .training-and-exercise-text h1 {
+        font-size: 30px;
+    }
+
+    .training-and-exercise-img {
+        /* display: grid; */
+        /* grid-template-columns: repeat(400px); */
+    }
+
+    /* BMI Calculator section  */
+    .b-m-i-calculator-section {
+        padding: 10px 0px;
+        /* margin: 20px 0px; */
+    }
+
+    .calculator-content {
+        flex-direction: column;
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+
+    .calculator-text {
+        width: 100%;
+    }
+
+    .calculator-text h1 {
+        font-size: 30px;
+    }
+
+    .calculator-chart {
+        width: 100%;
+    }
+
+    .calculator-chart h1 {
+        font-size: 30px;
+    }
+    .table{
+        width: 100%;
+    }
+
+    .calculator-form {
+        width: 100%;
+        margin: 50px 0px;
+    }
+
+    .calculator-form h1 {
+        font-size: 30px;
+    }
+
+    /* footer section  */
+    .footer-container {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    .footer-box1 {
+        text-align: justify;
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    body {
+        padding: 0px 10px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 100%;
+        padding-right: 100px;
+    }
+
+    .change-habit-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .extra-section-text {
+        width: 90%;
+    }
+
+    .extra-section-text h1 {
+        font-size: 30px;
+
+    }
+
+    .extra-section-btn {
+        padding: 15px 50px;
+        font-size: 15px;
+    }
+
+    .extra-section-text p {
+        width: 85%;
+    }
+
+    .extra-section-img {
+        /* height: 100%; */
+    }
+
+    .calculator-text {
+        width: 80%;
+    }
+
+    .calculator-text h1 {
+        font-size: 30px;
+    }
+
+    .calculator-content {
+        flex-direction: column;
+        margin: 5px 0px;
+        padding: 5px 0px;
+    }
+
+    .calculator-chart {
+        width: 100%;
+    }
+
+    .calculator-form {
+        margin: 40px 0px 0px 0px;
+        width: 100%;
+    }
 }
