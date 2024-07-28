@@ -88,7 +88,8 @@
     .change-habit-text p {
         width: 100%;
     }
-    .change-habit-text h1{
+
+    .change-habit-text h1 {
         font-size: 25px;
     }
 
@@ -128,7 +129,8 @@
     .meet-our-team-img {
         grid-template-columns: repeat(1, 1fr);
     }
-    .meet-our-team-text h1{
+
+    .meet-our-team-text h1 {
         font-size: 25px;
     }
 
@@ -140,6 +142,17 @@
     .training-and-exercise-img {
         /* display: grid; */
         /* grid-template-columns: repeat(400px); */
+        grid-template-rows: repeat(3, 200px);
+    }
+
+    .training-and-exercise-img1,
+    .training-and-exercise-img2,
+    .training-and-exercise-img3,
+    .training-and-exercise-img4,
+    .training-and-exercise-img5,
+    .training-and-exercise-img6 {
+        grid-column: auto / span 6;
+        grid-row: auto / span 1;
     }
 
     /* BMI Calculator section  */
@@ -169,7 +182,8 @@
     .calculator-chart h1 {
         font-size: 30px;
     }
-    .table{
+
+    .table {
         width: 100%;
     }
 

@@ -356,16 +356,16 @@ span {
 .training-and-exercise-img {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    /* grid-template-rows: repeat(12, 1fr); */
     /* border: 2px solid red; */
-    height: 100vh;
+    height: 600px;
     background-color: white;
     margin-top: 50px;
 }
 
 .training-and-exercise-img1 {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 6;
+    grid-column: auto / span 3;
+    /* grid-row: 1 / span 6; */
     background-image:linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url("../images/exercise1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -373,8 +373,8 @@ span {
 }
 
 .training-and-exercise-img2 {
-    grid-column: 4 / span 7;
-    grid-row: 1 / span 6;
+    grid-column: auto / span 6;
+    /* grid-row: 1 / span 6; */
     background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),url("../images/exercise2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -382,8 +382,8 @@ span {
 }
 
 .training-and-exercise-img3 {
-    grid-column: 10 / span 3;
-    grid-row: 1 / span 6;
+    grid-column: auto / span 3;
+    /* grid-row: 1 / span 6; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/exercise3.png");
     background-size: cover;
     background-position: center;
@@ -392,7 +392,7 @@ span {
 
 .training-and-exercise-img4 {
     grid-column: 1 / span 5;
-    grid-row: 7 / span 6;
+    /* grid-row: 7 / span 6; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/exercise4.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -401,7 +401,7 @@ span {
 
 .training-and-exercise-img5 {
     grid-column: 6 / span 3;
-    grid-row: 7 / span 6;
+    /* grid-row: 7 / span 6; */
     background-image: linear-gradient( rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)),url("../images/exercise5.jpg");
     background-position: center;
     background-size: cover;
@@ -410,7 +410,7 @@ span {
 
 .training-and-exercise-img6 {
     grid-column: 9 / span 4;
-    grid-row: 7 / span 6;
+    /* grid-row: 7 / span 6; */
     background-image: linear-gradient( rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)),url("../images/exercise6.jpg");
     background-position: center;
     background-size: cover;
@@ -456,12 +456,14 @@ span {
     /* border: 2px solid red; */
     width: 50%;
 }
-
-.table {
-    /* border-collapse: collapse; */
-    /* border: 1; */
-    width: 50%;
+.table{
     height: 60%;
+}
+
+.table, .table th, .table td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 50%;
 }
 
 th,
@@ -510,7 +512,7 @@ th{
     grid-column: 1 / span 2;
 }
 
-input {
+input , select{
     background-color: #5d5c5c8a;
     border-radius: 8px;
     padding: 10px;

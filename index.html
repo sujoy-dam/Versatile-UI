@@ -122,10 +122,10 @@
             <div class="calculator-content">
                 <div class="calculator-chart">
                     <h1>BMI Calculator Chart</h1>
-                    <table class="table" style="border-collapse: collapse; border: 1;" border="1">
+                    <table class="table">
                         <tr>
-                            <th>BMI</td>
-                            <th>Weight Status</td>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
                         </tr>
                         <tr>
                             <td>Below 18.5</td>
@@ -160,10 +160,22 @@
                             <input type="text" name="" id="" placeholder="Age">
                         </div>
                         <div class="box-4 box">
-                            <input type="text" placeholder="Sex">
+                            <label for="sex-select">
+                                <select name="sex" id="sex-select">
+                                    <option value="" selected>Sex</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </label>
+                            <!-- <input type="text" placeholder="Sex"> -->
                         </div>
                         <div class="box-5 box">
-                            <input type="text" placeholder="Select an activity factor">
+                            <label for="">
+                                <select name="" id="">
+                                    <option value="">Select an activity factor</option>
+                                </select>
+                            </label>
+                            <!-- <input type="text" placeholder="Select an activity factor"> -->
                         </div>
                         <button class="extra-section-btn">Calculate</button>
                     </form>
