@@ -222,7 +222,23 @@
         font-size: 16px;
         border: 0.5px solid white;
     }
-
+    .our-features-classes-title h1{
+        font-size: 30px;
+    }
+    .our-features-classes-title p{
+        font-size: 16px;
+    }
+    .heavy-weight-div-class{
+        flex-direction: column;
+        gap: 2px;
+    }
+    .heavy-weight-div-text{
+        border-radius: 0 0 0 0;
+        padding: 100px 20px;
+    }
+    .heavy-weight-div-img{
+        top:-12%
+    }
     /* footer section  */
     .footer-container {
         flex-direction: column;
