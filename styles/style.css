@@ -521,6 +521,121 @@ input , select{
     font-size: 25px;
 }
 
+
+
+
+/* extra section  */
+.fiteness-and-health-section{
+    color: white;
+    position: relative;
+    background-color: rgb(29, 44, 44);
+    max-width: 1440px;
+    /* border: 2px solid white; */
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    padding: 200px 20px;
+    border-radius: 20px;
+}
+.fiteness-and-health-section-content{
+    /* text-align: right; */
+    width: 65%;
+    /* border: 2px solid red; */
+}
+.fiteness-and-health-section-content-title{
+    text-align: right;
+    line-height: 50px;
+    margin-bottom: 40px;
+    /* width: 40%; */
+}
+.fitness-and-health-btn{
+    background-color: rgb(29, 44, 44);
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.fiteness-and-health-section-content-title h1{
+    /* text-align: right; */
+    /* width: 40%; */
+    font-size: 50px;
+}
+.fiteness-and-health-section-content-title h4{
+    /* text-align: center; */
+    font-size: 25px;
+    color: tomato;
+}
+.p-1{
+    font-size: 20px;
+}
+.p-2, .p-3{
+    line-height: 30px;
+    margin-top: 25px;
+}
+.fiteness-and-health-section-img{
+    width: 33%;
+    /* position: relative; */
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+.fiteness-and-health-section-img img{
+    width: 100%;
+    border-radius: 20px;
+    bottom: 0px;
+    background-color: red;
+}
+/* features classes  */
+.our-features-classes{
+    max-width: 1440px;
+    background-color: rgb(190, 178, 178);
+    margin: 0px auto;
+    color: white;
+    border: 2px solid white;
+    /* display: flex; */
+}
+.heavy-weight-div-class{
+    border: 2px solid white;
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.our-features-classes-title{
+    
+}
+.heavy-weight-div{
+    display: flex;
+    border: 2px solid greenyellow;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* justify-content: center; */
+}
+.heavy-weight-div-img{
+    transform: rotate(45deg);
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -16%;
+    border: 2px solid green;
+}
+.fa-solid{
+    font-size: 60px;
+    transform: rotate(-45deg);
+}
+.heavy-weight-div-text{
+    background-color: rgb(24, 24, 46);
+    width: 100%;
+    /* height: ; */
+    padding: 100px 30px 50px 30px;
+}
 /* footer section  */
 .footer-section {
     background-color: #5d5c5c8a;

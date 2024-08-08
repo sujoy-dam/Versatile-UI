@@ -196,6 +196,33 @@
         font-size: 30px;
     }
 
+    /* extra section  */
+    .fiteness-and-health-section{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .fiteness-and-health-section-content{
+        width: 100%;
+    }
+    .fiteness-and-health-section-content-title h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .p-1{
+        font-size: 18px;
+    }
+    .fiteness-and-health-section-content-title h4{
+        text-align: center;
+        font-size: 16px;
+    }
+    .fiteness-and-health-section-img{
+        display: none;
+    }
+    .fitness-and-health-btn{
+        font-size: 16px;
+        border: 0.5px solid white;
+    }
+
     /* footer section  */
     .footer-container {
         flex-direction: column;
@@ -250,10 +277,6 @@
         width: 85%;
     }
 
-    .extra-section-img {
-        /* height: 100%; */
-    }
-
     .calculator-text {
         width: 80%;
     }
@@ -275,5 +298,23 @@
     .calculator-form {
         margin: 40px 0px 0px 0px;
         width: 100%;
+    }
+    .fiteness-and-health-section{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .fiteness-and-health-section-content{
+        width: 100%;
+    }
+    .fiteness-and-health-section-content-title h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .fiteness-and-health-section-content-title h4{
+        text-align: center;
+        font-size: 16px;
+    }
+    .fiteness-and-health-section-img{
+        display: none;
     }
 }
