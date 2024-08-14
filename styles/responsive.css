@@ -34,7 +34,6 @@
 
     .banner-content-btn {
         display: flex;
-        /* flex-direction: column; */
     }
 
     .join-btn,
@@ -140,8 +139,6 @@
     }
 
     .training-and-exercise-img {
-        /* display: grid; */
-        /* grid-template-columns: repeat(400px); */
         grid-template-rows: repeat(3, 200px);
     }
 
@@ -332,5 +329,15 @@
     }
     .fiteness-and-health-section-img{
         display: none;
+    }
+    .heavy-weight-div-img{
+        top:-19%
+    }
+    .heavy-weight-div-class{
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    .heavy-weight-div-text{
+        border-radius: 0 0 0 0;
     }
 }

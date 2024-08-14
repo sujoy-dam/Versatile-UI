@@ -14,7 +14,6 @@ body {
 
 /* nav section  */
 .nav-container {
-    /* border: 2px solid red; */
     max-width: 1440px;
     margin: 0px auto;
     display: flex;
@@ -31,7 +30,6 @@ body {
 .nav-container ul {
     display: flex;
     width: 45%;
-    /* border: 2px solid black; */
     justify-content: space-between;
     list-style-type: none;
     text-decoration: none;
@@ -61,7 +59,6 @@ body {
 /* banner section  */
 .banner-container {
     max-width: 1440px;
-    /* border: 2px solid blue; */
     margin: 40px auto;
     display: flex;
     justify-content: space-between;
@@ -71,7 +68,6 @@ body {
 .banner-content {
     color: white;
     width: 50%;
-    /* border: 2px solid red; */
 }
 
 .banner-content h1 {
@@ -102,24 +98,22 @@ span {
     transform: rotate(360deg);
 }
 @keyframes forBtn {
-    from{
+    0%{
         background: radial-gradient(#E6533C, rgb(8, 193, 150));
         
     }
-    to{
+    100%{
         border: 2px solid aqua;
         background: radial-gradient(rgb(15, 204, 138), #E6533C);
     }
 }
 .join-btn {
     
-    /* margin-left: 20px; */
     padding: 20px 25px;
     border-radius: 12px;
     color: white;
     font-size: 16px;
     background-color: #E6533C;
-    /* border: 1px solid tomato; */
     animation-name: forBtn;
     animation-duration: .7s;
     animation-iteration-count: infinite;
@@ -156,8 +150,6 @@ span {
 
 .template2 {
     border: 2px solid red;
-    /* width: 20%; */
-    /* height: 20%; */
     background-color: #5d5c5c8a;
     border-radius: 12px;
     padding: 15px;
@@ -170,7 +162,6 @@ span {
 .change-habit-container {
     max-width: 1440px;
     margin: 40px auto;
-    /* border: 2px solid green; */
     color: white;
     text-align: center;
 }
@@ -189,7 +180,6 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
     margin-top: 40px;
     gap: 40px;
 }
@@ -260,7 +250,7 @@ span {
     font-weight: 600;
     animation-name: forBtn;
     animation-duration: 0.7s;
-    animation-iteration-count: infinite
+    animation-iteration-count: infinite;
 }
 
 .extra-section-img {
